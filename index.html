@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher Encrypt/Decrypt</title>
+</head>
+<body>
+    <h1>Caesar Cipher Encrypt/Decrypt</h1>
+    <form action="/" method="POST">
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="shift">Shift Value:</label><br>
+        <input type="number" id="shift" name="shift" required><br><br>
+
+        <input type="radio" id="encrypt" name="action" value="encrypt" checked>
+        <label for="encrypt">Encrypt</label><br>
+
+        <input type="radio" id="decrypt" name="action" value="decrypt">
+        <label for="decrypt">Decrypt</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
